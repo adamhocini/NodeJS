@@ -1,4 +1,4 @@
-function capitalizeVowels(str) {
+function UpperCase(str) {
     let newStr = "";
     for (let i = 0; i < str.length; i++) {
     if (str[i] === "a" || str[i] === "e" || str[i] === "i" || str[i] === "o" || str[i] === "u") {
@@ -12,6 +12,6 @@ function capitalizeVowels(str) {
     return newStr;
 }
     
-console.log(capitalizeVowels("hello world")); // hEllO wOrld
-console.log(capitalizeVowels("javascript")); // jAvAscrIpt
-console.log(capitalizeVowels("adamhocini")); // AdAmhOcInI
+console.log(UpperCase("hello world")); // hEllO wOrld
+console.log(UpperCase("javascript")); // jAvAscrIpt
+console.log(UpperCase("adamhocini")); // AdAmhOcInI
