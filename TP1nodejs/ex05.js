@@ -17,7 +17,7 @@ function numberToWords(num) {
     }
     // si le chiffre est supperieur ou egale a 100 et inferieure a 200
     else if (num > 120 && num < 200){
-        return "cent " + tens[Math.floor(num / 10)] + ((num % 10 != 0) ? "-" + units[num % 10] - 100: "");
+        return "cent " + tens[Math.floor(num / 10)] + ((num % 10 != 0) ? "-" + units[num % 10]: "");
     }
 }
 
