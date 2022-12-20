@@ -1,7 +1,7 @@
 function countVowels(str) {
     // On définit un compteur à 0
     let count = 0;
-  
+    
     // On définit un tableau contenant les voyelles
     const vowels = ['a', 'e', 'i', 'o', 'u'];
   
@@ -18,4 +18,4 @@ function countVowels(str) {
   }
 
   const numVowels = countVowels('Bonjour');
-console.log(numVowels); // Affiche "2"
+console.log(numVowels); // Affiche "3"
