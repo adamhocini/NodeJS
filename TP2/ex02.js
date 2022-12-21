@@ -3,7 +3,7 @@ const fs = require('fs');
 //utilise la méthode fs.readFile() pour lire le fichier.
 fs.readFile('test.txt', function(err, data) {
     if (err) throw err;
-    console.log(data);
+    console.log(err);
 });
 
 //la méthode fs.writeFile() pour réécrie le fichier avec les données modifiées.
