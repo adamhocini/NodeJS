@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const directoryPath = '/Users/adamhocini/Documents/Isitech/D2/Module/Module NodeJS/NodeJS/TP2';
+const directoryPath = './';
 
 fs.readdir(directoryPath, function(err, files) {
   // Vérifie d'abord si une erreur s'est produite
