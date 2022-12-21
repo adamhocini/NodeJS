@@ -1,7 +1,8 @@
 const querystring = require('querystring');
 
-const url = 'http://www.example.com?name=Adam&age=22';
+const url = 'https://nodejs.org/api/querystring.html';
 
 const query = querystring.parse(url);
 
 console.log(query);
+// sorti
