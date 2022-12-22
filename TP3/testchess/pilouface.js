@@ -10,7 +10,7 @@ let pilouface = (userChoice) => {
     outcome = "p";
         }
     if (outcome == userChoice) {
-      console.log("Vous avez gagné! : ``)");
+      console.log("Vous avez gagné! : ``)"); 
       console.log(`
       ░░░░░░░░░░░░░░░░░░░░░░█████████
       ░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███
