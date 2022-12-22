@@ -4,17 +4,17 @@
   
     "version": "1.0.0",
   
-    "description": "",
+    "description": "Tic Tac Toe",
   
     "type": "module",
   
-    "main": "test.js",
+    "main": "coin-tos.js",
   
     "scripts": {
   
       "test": "echo \"Error: no test specified\" && exit 1",
   
-      "start": "node index.js"
+      "start": "node coin-toss.js"
   
     },
   
@@ -22,8 +22,7 @@
   
     "author": "",
   
-    "license": "ISC"
+    "license": "ISITECH"
   
-  }
-  
-  
+}
+
