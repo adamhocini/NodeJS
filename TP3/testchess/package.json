@@ -1,28 +1,11 @@
 {
-
-    "name": "jeux-console",
-  
-    "version": "1.0.0",
-  
-    "description": "Tic Tac Toe",
-  
-    "type": "module",
-  
-    "main": "coin-tos.js",
-  
-    "scripts": {
-  
-      "test": "echo \"Error: no test specified\" && exit 1",
-  
-      "start": "node coin-toss.js"
-  
-    },
-  
-    "keywords": [],
-  
-    "author": "",
-  
-    "license": "ISITECH"
-  
+  "name": "pileouface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pilouface.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
-

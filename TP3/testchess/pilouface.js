@@ -1,13 +1,6 @@
 const readline = require("readline");
 const rl = readline.createInterface(process.stdin, process.stdout);
 
-
-let message = "Tapez `p` pour pile ou `f` pour face, puis appuyez sur Entrée.\n";
-rl.question(message, (answer) => {
-        pilouface(answer);
-        rl.close();
-}); 
-
 let pilouface = (userChoice) => {
   
   let outcome = "f";
@@ -21,7 +14,8 @@ let pilouface = (userChoice) => {
     }
 
 }
-
-
-
-console.log(userChoice);
+let message = "Tapez `p` pour pile ou `f` pour face, puis appuyez sur Entrée.\n";
+rl.question(message, (answer) => {
+        pilouface(answer);
+        rl.close();
+});
