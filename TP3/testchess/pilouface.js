@@ -36,8 +36,21 @@ let pilouface = (userChoice) => {
     }
 
 }
+console.log(`$$___$$_ $$$$$$$_ $$______ $$______ __$$$___ 
+$$___$$_ $$______ $$______ $$______ _$$_$$__ 
+$$$$$$$_ $$$$$___ $$______ $$______ $$___$$_ 
+$$___$$_ $$______ $$______ $$______ $$___$$_ 
+$$___$$_ $$______ $$____$_ $$____$_ _$$_$$__ 
+$$___$$_ $$$$$$$_ $$$$$$$_ $$$$$$$_ __$$$___ `)
 let message = "Tapez `p` pour pile ou `f` pour face, puis appuyez sur Entrée.\n";
-rl.question(message, (answer) => {
+let messagefirst = (
+   `$$___$$_ $$$$$$$_ $$______ $$______ __$$$___ 
+$$___$$_ $$______ $$______ $$______ _$$_$$__ 
+$$$$$$$_ $$$$$___ $$______ $$______ $$___$$_ 
+$$___$$_ $$______ $$______ $$______ $$___$$_ 
+$$___$$_ $$______ $$____$_ $$____$_ _$$_$$__ 
+$$___$$_ $$$$$$$_ $$$$$$$_ $$$$$$$_ __$$$___`);
+rl.question(messagefirst, message, (answer) => {
         pilouface(answer);
         rl.close();
         //La méthode rl.close() ferme l'instance d'InterfaceConstructor et abandonne le contrôle des flux d'entrée et de sortie.
