@@ -36,6 +36,7 @@ let pilouface = (userChoice) => {
     }
 
 }
+
 console.log(`
 
 
@@ -85,9 +86,13 @@ let pilouface = (userChoice) => {
     }
 
 }
-         
-// ajouter un choix 
-// ajouter un compter de point 
+
+const score = ['score'];
+
+const count = score.push('score');
+console.log(count);
+
+
 
 
 
